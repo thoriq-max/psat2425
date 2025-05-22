@@ -102,18 +102,18 @@ echo '#!/bin/bash
 sudo apt update -y
 sudo apt install -y apache2 php php-mysql libapache2-mod-php mysql-client
 sudo rm -rf /var/www/html/{,.}
-sudo git clone https://github.com/username/repo.git /var/www/html
+sudo git clone [repository githubmu] /var/www/html
 sudo chmod -R 777 /var/www/html
-echo DB_USER=admin > /var/www/html/.env
-echo DB_PASS=P4ssw0rd123 >> /var/www/html/.env
-echo DB_NAME=psat2425 >> /var/www/html/.env
-echo DB_HOST=rdsku.czt6n8ylfvyb.us-east-1.rds.amazonaws.com >> /var/www/html/.env
+echo DB_USER=[username rds] > /var/www/html/.env
+echo DB_PASS=[password rds]  >> /var/www/html/.env
+echo DB_NAME=[nama database]  >> /var/www/html/.env
+echo DB_HOST=[endpoint rds] >> /var/www/html/.env
 sudo apt install -y openssl
 sudo a2enmod ssl
 sudo a2ensite default-ssl.conf
 sudo systemctl reload apache2' > /home/ubuntu/otomatis.sh
 
-chmod +x /home/ubuntu/otomatis.sh
+chmod +x /home/ubuntu/otomatis.sh  
 ```
 
 ### 3. Akses EC2 dan Jalankan Script
