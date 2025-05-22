@@ -111,7 +111,7 @@ echo DB_HOST=[endpoint rds] >> /var/www/html/.env
 sudo apt install -y openssl
 sudo a2enmod ssl
 sudo a2ensite default-ssl.conf
-sudo systemctl reload apache2' > /home/ubuntu/otomatis.sh
+sudo systemctl reload apache2'
 
 chmod +x /home/ubuntu/otomatis.sh  
 ```
