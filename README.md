@@ -1,6 +1,6 @@
 # 📦 Penilaian Sumatif Akhir Tahun
 
-## 🛠️ Mapil: DevOps - Penilaian Prakter
+## 🛠️ Mapil: DevOps - Penilaian Praktek
 
 ### 🡩‍🏫 Kelas: XI TJKT 1 – SMKN 1 Banyumas
 
